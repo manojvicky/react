@@ -1,0 +1,38 @@
+div#app {
+    width: 100%;
+    background: lightgray;
+}
+
+.leftpane {
+    width: 25%;
+    float: left;
+    background: yellow;
+}
+
+.rightpane {
+    width: 75%;
+    float: right;
+    background: red;
+}
+
+ul {
+    width: 100%;
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+li.list {
+    list-style: none;
+    border: 2px solid black;
+    padding-left: 30px;
+    height: 50px;
+    padding-top: 25px;
+    text-align: left;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+li.list:hover{
+	background: gray;
+}
